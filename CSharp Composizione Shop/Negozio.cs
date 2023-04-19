@@ -60,10 +60,6 @@ namespace CSharp_Composizione_Shop
             this.addressN = indirizzo;
 
             this.listaProdotti = new List<Prodotto>();
-                
-            
-            
-            
 
         }
 

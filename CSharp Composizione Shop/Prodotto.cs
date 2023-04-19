@@ -182,11 +182,11 @@ namespace CSharp_Composizione_Shop
 
         public string getStringProdotto()
         {
-            string rappresentazioneInStringa = "Nome: " + this.name + "\n";
-            rappresentazioneInStringa += "Descrizione: " + this.description + "\n";
-            rappresentazioneInStringa += "Prezzo: " + this.price + "euro \n";
-            rappresentazioneInStringa += "Iva: " + this.tax + "%\n";
-            rappresentazioneInStringa += "Categoria : \n " + categoria.StampaInfoCodice() + "\n";
+            string rappresentazioneInStringa = "\n\nNome prodotto: " + this.name + "\n";
+            rappresentazioneInStringa += "Descrizione prodotto: " + this.description + "\n";
+            rappresentazioneInStringa += "Prezzo prodotto: " + this.price + "euro \n";
+            rappresentazioneInStringa += "Iva prodotto: " + this.tax + "%\n";
+            rappresentazioneInStringa += "Categoria prodotto: \n " + categoria.StampaInfoCodice() + "\n";
 
 
             return rappresentazioneInStringa;

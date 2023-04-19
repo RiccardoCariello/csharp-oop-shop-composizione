@@ -32,7 +32,7 @@ Console.WriteLine("Ottimo, vai inseriscili uno per uno! ");
 
 for(int i = 0; i < numeroProdotti; i++)
 {
-
+    
     listaProdotti.Add(ProductCreator());
 }
 
